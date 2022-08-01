@@ -13,6 +13,10 @@ export const AppBarStyled = styled(Grid)(
     text-decoration: none;
   }
   background: ${theme.palette.primary.main}; 
-  border-bottom: 6px solid ${theme.palette.primary.dark}
+  border-bottom: 6px solid ${theme.palette.primary.dark};
+  
+  svg {
+    cursor: pointer;
+  }
 `
 )
